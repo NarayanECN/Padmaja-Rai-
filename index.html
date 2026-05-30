@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dr. Padmaja Rai | Banaras Hindu University</title>
+    <title>Dr. Padmaja Rai | Plant Molecular Biology & Nanobiotechnology</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
@@ -55,7 +55,20 @@
         .pub-list-item {
             border-left: 3px solid var(--secondary-color);
             padding-left: 15px;
-            margin-bottom: 20px;
+            margin-bottom: 25px;
+            background: #fff;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            border-radius: 0 6px 6px 0;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.02);
+        }
+        .award-box {
+            background: #fff;
+            border-left: 4px solid #ffca28;
+            padding: 15px 20px;
+            margin-bottom: 15px;
+            border-radius: 4px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
         }
         footer {
             background-color: var(--primary-color);
@@ -68,14 +81,15 @@
 
     <nav class="navbar navbar-expand-lg sticky-top">
         <div class="container">
-            <a class="navbar-brand font-weight-bold" href="#">Dr. Padmaja Rai</a>
+            <a class="navbar-brand fw-bold" href="#">Dr. Padmaja Rai</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse id="navbarNav"">
+            <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
                     <li class="nav-item"><a class="nav-link" href="#research">Research</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#awards">Awards & Patents</a></li>
                     <li class="nav-item"><a class="nav-link" href="#publications">Publications</a></li>
                     <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
                 </ul>
@@ -90,19 +104,20 @@
                     <img src="https://via.placeholder.com/250x250?text=Dr.+Padmaja+Rai" class="img-fluid rounded-circle shadow" alt="Dr. Padmaja Rai">
                 </div>
                 <div class="col-md-8">
-                    <h1 class="display-4 fw-bold">Dr. Padmaja Rai</h1>
-                    <p class="lead text-muted fw-semibold">Research Associate-I</p>
+                    <h1 class="display-4 fw-bold">Dr. Padmaja Rai (Ph.D.)</h1>
+                    <p class="lead text-muted fw-semibold">Plant Physiologist & Biotechnologist</p>
                     <p class="text-secondary mb-3">
-                        <i class="fa-solid fa-building-columns me-2"></i>Department of Genetics and Plant Breeding<br>
-                        Institute of Agricultural Sciences, Banaras Hindu University (BHU)
+                        <i class="fa-solid fa-graduation-cap me-2"></i>Ph.D. in Biotechnology (2024), MNNIT Allahabad<br>
+                        <i class="fa-solid fa-building-columns me-2"></i>Banaras Hindu University (BHU)
                     </p>
                     <p>
-                        I am a Plant Biotechnologist specializing in agricultural nanotechnology, plant physiology, and abiotic stress management. My work focuses on leveraging nano-scale materials and physiological interventions (such as Silicon applications) to mitigate environmental toxicities and enhance structural crop resilience. I completed my Ph.D. in Biotechnology from MNNIT Allahabad.
+                        I am an agricultural plant biotechnologist specializing in abiotic stress management, plant biochemistry, and sustainable nano-agriculture. My core research unravels nanomaterial-plant interactions, the biochemical roles of silicon and signaling molecules like Nitric Oxide and Hydrogen Sulfide, and gene expression profiling to mitigate environmental vulnerabilities. Additionally, I integrate <strong>Machine Learning and Bioinformatics</strong> to advance molecular biology research.
                     </p>
                     <div class="mt-4">
-                        <a href="mailto:padmaja.rai@bhu.ac.in" class="btn btn-outline-dark me-2"><i class="fa-solid fa-envelope me-2"></i>Email</a>
-                        <a href="#" target="_blank" class="btn btn-outline-success me-2"><i class="fa-solid fa-graduation-cap me-2"></i>Google Scholar</a>
-                        <a href="#" target="_blank" class="btn btn-outline-primary"><i class="fa-brands fa-researchgate me-2"></i>ResearchGate</a>
+                        <a href="mailto:padmaja.2018rbt51@mnnit.ac.in" class="btn btn-outline-dark me-2 mb-2"><i class="fa-solid fa-envelope me-2"></i>Email</a>
+                        <a href="https://scholar.google.com/citations?user=UbBMrbAAAAAJ&hl=en" target="_blank" class="btn btn-outline-success me-2 mb-2"><i class="fa-brands fa-google me-2"></i>Google Scholar</a>
+                        <a href="https://www.researchgate.net/profile/Padmaja-Rai-2" target="_blank" class="btn btn-outline-primary me-2 mb-2"><i class="fa-brands fa-researchgate me-2"></i>ResearchGate</a>
+                        <a href="https://orcid.org/0000-0002-9981-6354" target="_blank" class="btn btn-outline-info me-2 mb-2"><i class="fa-brands fa-orcid me-2"></i>ORCID</a>
                     </div>
                 </div>
             </div>
@@ -111,89 +126,155 @@
 
     <section class="py-5" id="research">
         <div class="container">
-            <h2 class="text-center mb-5 fw-bold">Research Framework</h2>
+            <h2 class="text-center mb-5 fw-bold">Research Framework & Expertise</h2>
             <div class="row g-4">
                 <div class="col-md-6 col-lg-3">
                     <div class="card h-100 p-4 research-card">
                         <div class="icon-box"><i class="fa-solid fa-atom"></i></div>
                         <h3>Nano-Agriculture</h3>
-                        <p class="small text-muted">Synthesis, characterization, and deployment of nanoparticles to enhance crop yield and defense systems safely.</p>
+                        <p class="small text-muted">Synthesis, uptake, and translocation dynamics of targeting nanoparticles (e.g., ZnO, AgNPs, Nanoiron, CuO NPs) inside complex plant systems to improve crop safety.</p>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3">
                     <div class="card h-100 p-4 research-card">
                         <div class="icon-box"><i class="fa-solid fa-cloud-sun-rain"></i></div>
-                        <h3>Abiotic Stress</h3>
-                        <p class="small text-muted">Evaluating plant morpho-physiological and biochemical profiles under heavy metal toxicity and drought pressures.</p>
+                        <h3>Abiotic Stress Signalling</h3>
+                        <p class="small text-muted">Decoding the ascorbate-glutathione cycle and cascades involving Nitric Oxide (NO), Hydrogen Sulfide, and Ethylene to neutralize toxic Chromium, Cadmium, and Arsenate stresses.</p>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3">
                     <div class="card h-100 p-4 research-card">
-                        <div class="icon-box"><i class="fa-solid fa-seedling"></i></div>
-                        <h3>Silicon Nutrition</h3>
-                        <p class="small text-muted">Investigating mechanisms of silicon-mediated elemental cross-talk to counter environmental stresses in higher plants.</p>
+                        <div class="icon-box"><i class="fa-solid fa-laptop-code"></i></div>
+                        <h3>Bioinformatics & ML</h3>
+                        <p class="small text-muted">Applying computational machine learning tools (Python, C++), bioinformatics, and functional genomics to profile stress-responsive gene variants and transcriptomic shifts.</p>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3">
                     <div class="card h-100 p-4 research-card">
                         <div class="icon-box"><i class="fa-solid fa-dna"></i></div>
-                        <h3>Gene Expression</h3>
-                        <p class="small text-muted">Utilizing molecular profiling to monitor stress-responsive genes and transcriptomic shifts in crop cultivars.</p>
+                        <h3>Gene Expression & Hormones</h3>
+                        <p class="small text-muted">Utilizing qRT-PCR molecular profiling to analyze genes (e.g., PCR1) and evaluating cross-talk mechanisms of elemental silicon and auxin (IAA) in root architecture.</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="py-5 bg-light" id="publications">
+    <section class="py-5 bg-light" id="awards">
         <div class="container">
-            <h2 class="mb-5 fw-bold text-center">Selected Peer-Reviewed Publications</h2>
+            <h2 class="mb-5 fw-bold text-center">Honours, Awards & Patents</h2>
             <div class="row justify-content-center">
                 <div class="col-lg-9">
+                    <div class="award-box">
+                        <h5 class="mb-1 text-dark"><i class="fa-solid fa-certificate text-warning me-2"></i>Granted Patent (2022)</h5>
+                        <p class="mb-0 text-muted"><strong>A Composition for Inhibiting the Growth of Fungi</strong> (Application No.: 202211031283). Co-inventors: Dr. Ashutosh Mani, Dr. Shivesh Sharma, Dr. Shweta Srivastava, Dr. Padmaja Rai.</p>
+                    </div>
+                    <div class="award-box">
+                        <h5 class="mb-1 text-dark"><i class="fa-solid fa-trophy text-warning me-2"></i>INNOVAT HER Poster Printing Award (2024)</h5>
+                        <p class="mb-0 text-muted">Recognized at the Research Symposium INNOVAT HER: Research Showcase, University of Delaware, USA.</p>
+                    </div>
+                    <div class="award-box">
+                        <h5 class="mb-1 text-dark"><i class="fa-solid fa-plane-departure text-warning me-2"></i>SLAS TONY B Travel Grant Recipient (2023)</h5>
+                        <p class="mb-0 text-muted">Awarded for poster presentation at the SLAS 2023 International Conference held at the San Diego Convention Centre, USA.</p>
+                    </div>
+                    <div class="award-box">
+                        <h5 class="mb-1 text-dark"><i class="fa-solid fa-medal text-warning me-2"></i>Merit Scholarships & Academic Excellence</h5>
+                        <p class="mb-0 text-muted">Awarded merit scholarship from the Ministry of Education (Govt. of India) and ranked 3rd across the university during B.Sc. Biotechnology (CGPA: 9.79/10).</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5" id="publications">
+        <div class="container">
+            <h2 class="mb-5 fw-bold text-center">Selected High-Impact Publications</h2>
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
                     
                     <div class="pub-list-item">
-                        <h5>Silicon nanoparticles optimize physiological pathways and combat heavy metal toxicity in sustainable crops</h5>
-                        <p class="mb-1 text-muted"><strong>Rai, P.</strong>, et al. | <em>Journal of Plant Growth Regulation</em></p>
-                        <span class="badge bg-secondary">Journal Article</span>
+                        <h5>Silicon regulates phosphate deficiency through involvement of auxin and nitric oxide in barley roots.</h5>
+                        <p class="mb-1 text-muted">Kandhol, N., <strong>Rai, P.</strong>, Mishra, V., Pandey, S., Kumar, S., Deshmukh, R., & Tripathi, D. K. | <em>Planta</em> (2024) | <small>IF: 4.54</small></p>
+                        <span class="badge bg-success">Journal Article</span>
                     </div>
 
                     <div class="pub-list-item">
-                        <h5>Mechanistic evaluation of nanoparticle-mediated defense dynamics under multi-stress conditions</h5>
-                        <p class="mb-1 text-muted"><strong>Rai, P.</strong>, & Mishra, S. | <em>Environmental and Experimental Botany</em></p>
-                        <span class="badge bg-secondary">Journal Article</span>
+                        <h5>Synergy of Plant Growth Promoting Rhizobacteria and Silicon in regulation of AgNPs induced stress of rice seedlings.</h5>
+                        <p class="mb-1 text-muted">Tripathi, S., Sharma, S., <strong>Rai, P.</strong>, Mahra, S., Tripathi, D. K., & Sharma, S. | <em>Plant Physiology and Biochemistry</em> (2024) | <small>IF: 5.43</small></p>
+                        <span class="badge bg-success">Journal Article</span>
                     </div>
 
                     <div class="pub-list-item">
-                        <h5>Transcriptomic profiling and gene expression analysis of drought-resilient crop variants</h5>
-                        <p class="mb-1 text-muted"><strong>Rai, P.</strong>, et al. | <em>Plant Science Reports</em></p>
-                        <span class="badge bg-secondary">Review Paper</span>
+                        <h5>Zinc induced regulation of PCR1 gene for cadmium stress resistance in rice roots.</h5>
+                        <p class="mb-1 text-muted">Kandhol, N., <strong>Rai, P.</strong>, Pandey, S., Singh, S., Sharma, S., Corpas, F. J., Singh, V. P., & Tripathi, D. K. | <em>Plant Science</em> (2023) | <small>IF: 5.36</small></p>
+                        <span class="badge bg-success">Journal Article</span> 
+                    </div>
+
+                    <div class="pub-list-item">
+                        <h5>Iron oxide nanoparticles impart cross tolerance to arsenic stress in rice roots through involvement of nitric oxide.</h5>
+                        <p class="mb-1 text-muted"><strong>Rai, P.</strong>, Singh, V. P., Sharma, S., Tripathi, D. K., & Sharma, S. | <em>Environmental Pollution</em> (2022) | <small>IF: 9.98</small></p>
+                        <span class="badge bg-success">Journal Article</span> 
+                    </div>
+
+                    <div class="pub-list-item">
+                        <h5>Nanoiron: Uptake, translocation and accumulation in plant systems.</h5>
+                        <p class="mb-1 text-muted"><strong>Rai, P.</strong>, Sharma, S., Tripathi, S., Prakash, V., Tiwari, K., Suri, S., & Sharma, S. | <em>Plant Nano Biology</em> (2022)</p>
+                        <span class="badge bg-success">Journal Article</span> 
+                    </div>
+
+                    <div class="pub-list-item">
+                        <h5>Application of zinc oxide nanoparticles as fertilizer boosts growth in rice plant and alleviates chromium stress by regulating genes involved in oxidative stress.</h5>
+                        <p class="mb-1 text-muted">Prakash, V., <strong>Rai, P.</strong>, Sharma, N. C., Singh, V. P., Tripathi, D. K., Sharma, S., & Sahi, S. | <em>Chemosphere</em> (2022)</p>
+                        <span class="badge bg-success">Journal Article</span>
+                    </div>
+
+                    <div class="pub-list-item">
+                        <h5>Hydrogen sulfide (H2S) underpins the beneficial silicon effects against the copper oxide nanoparticles (CuO NPs) phytotoxicity in Oryza sativa seedlings.</h5>
+                        <p class="mb-1 text-muted"><strong>Rai, P.</strong>, Singh, V. P., Peralta-Videa, J., Tripathi, D. K., Sharma, S., Corpas, F. J. | <em>Journal of Hazardous Materials</em> (2021) | <small>IF: 14.22</small></p>
+                        <span class="badge bg-success">Journal Article</span>
                     </div>
 
                     <div class="text-center mt-5">
-                        <p class="text-muted">For a comprehensive, real-time list of citations and items, please explore:</p>
-                        <a href="#" class="btn btn-sm btn-outline-secondary mx-1"><i class="fa-solid fa-external-link me-1"></i>Google Scholar</a>
-                        <a href="#" class="btn btn-sm btn-outline-secondary mx-1"><i class="fa-solid fa-external-link me-1"></i>ResearchGate</a>
+                        <p class="text-muted">For a comprehensive list of 20+ peer-reviewed papers and real-time citation tracking, please visit:</p>
+                        <a href="https://scholar.google.com/citations?user=UbBMrbAAAAAJ&hl=en" target="_blank" class="btn btn-sm btn-outline-success mx-1">Google Scholar Profile</a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="py-5" id="contact">
+    <section class="py-5 bg-light" id="contact">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-md-8 text-center">
                     <h2 class="mb-4 fw-bold">Get In Touch</h2>
-                    <p class="lead text-muted mb-5">Open for research collaborations, academic discourse, and student mentorship.</p>
+                    <p class="lead text-muted mb-5">Open for international research partnerships, institutional peer analysis, and scientific discourse.</p>
                     
-                    <div class="card p-4 border-0 shadow-sm bg-light">
-                        <h4 class="text-dark mb-3">Institutional Address</h4>
+                    <div class="card p-4 border-0 shadow-sm bg-white">
+                        <h4 class="text-dark mb-3">Academic Connect</h4>
                         <p class="mb-1 fw-bold">Dr. Padmaja Rai</p>
-                        <p class="mb-1 text-muted">Research Associate-I</p>
+                        <p class="mb-1 text-muted">Ph.D. Biotechnology, MNNIT Allahabad</p>
                         <p class="mb-1">Department of Genetics and Plant Breeding, Institute of Agricultural Sciences</p>
-                        <p class="mb-4">Banaras Hindu University (BHU), Varanasi, UP, India - 221005</p>
+                        <p class="mb-4">Banaras Hindu University (BHU), Varanasi, UP, India</p>
                         <hr>
-                        <p class="mt-3"><i class="fa-solid fa-envelope text-success me-2"></i><strong>Official Email:</strong><padmaja.2018rbt51@mnnit.ac.in </p>
+                        <div class="row mt-3 text-start">
+                            <div class="col-md-6 mb-2">
+                                <i class="fa-solid fa-envelope text-success me-2"></i>
+                                <strong>Email:</strong> <a href="mailto:padmaja.2018rbt51@mnnit.ac.in" class="text-decoration-none text-dark">padmaja.2018rbt51@mnnit.ac.in</a>
+                            </div>
+                            <div class="col-md-6 mb-2">
+                                <i class="fa-solid fa-envelope text-success me-2"></i>
+                                <strong>Alt Email:</strong> <a href="mailto:raipadmaja20@gmail.com" class="text-decoration-none text-dark">raipadmaja20@gmail.com</a>
+                            </div>
+                            <div class="col-md-6 mb-2">
+                                <i class="fa-solid fa-fingerprint text-secondary me-2"></i>
+                                <strong>Scopus ID:</strong> 57205703397
+                            </div>
+                            <div class="col-md-6 mb-2">
+                                <i class="fa-solid fa-flask text-secondary me-2"></i>
+                                <strong>WoS ID:</strong> KMA-1211-2024
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -203,7 +284,6 @@
     <footer class="text-center">
         <div class="container">
             <p class="mb-1">&copy; 2026 Dr. Padmaja Rai. All Rights Reserved.</p>
-            <small class="text-white-50">Department of Genetics & Plant Breeding, BHU</small>
         </div>
     </footer>
 
